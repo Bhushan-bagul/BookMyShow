@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="44.218" tests="4" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="BookMyshow"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:7070/job/BookMyshow/12/display/redirect?page=tests"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\bhush\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="78ee2c99a975836a"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_301\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_301\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="NODE_LABELS" value="built-in"/>
+    <property name="TEMP" value="C:\Users\bhush\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_301-b09"/>
+    <property name="user.name" value="bhush"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="BookMyshow"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:7070/job/BookMyshow/12/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#12"/>
+    <property name="OneDrive" value="C:\Users\bhush\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_301\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\bhush\AppData\Local"/>
+    <property name="java.version" value="1.8.0_301"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="bhush"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="built-in"/>
+    <property name="OneDriveConsumer" value="C:\Users\bhush\OneDrive"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_301\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="12"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="C:\Users\bhush\Downloads\apache-maven-3.8.4-bin (1)\apache-maven-3.8.4\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_301\jre"/>
+    <property name="WT_PROFILE_ID" value="{61c54bbd-c2c6-5271-96e7-009a87ff44bf}"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:7070/job/BookMyshow/12/display/redirect"/>
+    <property name="TMP" value="C:\Users\bhush\AppData\Local\Temp"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:7070/job/BookMyshow/12/display/redirect?page=artifacts"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.301-b09"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:7070/job/BookMyshow/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="BHUSHAN-BAGUL"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_301"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\bhush"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="COMPUTERNAME" value="BHUSHAN-BAGUL"/>
+    <property name="user.script" value=""/>
+    <property name="user.home" value="C:\Users\bhush"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-BookMyshow-12"/>
+    <property name="JENKINS_SERVER_COOKIE" value="78ee2c99a975836a"/>
+    <property name="HUDSON_URL" value="http://localhost:7070/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\bhush"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_301\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\bhush\Downloads\apache-maven-3.8.4-bin (1)\apache-maven-3.8.4/bin;C:\Program Files\Java\jdk1.8.0_301/bin;C:\Program Files\Java\jdk1.8.0_301/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_301\bin\;C:\apache-maven-3.8.4bin\;C:\apache-maven-3.8.4\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\bhush\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="WSLENV" value="WT_SESSION::WT_PROFILE_ID"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\bhush\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\bhush\Downloads\apache-maven-3.8.4-bin (1)\apache-maven-3.8.4"/>
+    <property name="java.class.path" value="C:\Users\bhush\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\bhush\Downloads\apache-maven-3.8.4-bin (1)\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar;C:\Users\bhush\Downloads\apache-maven-3.8.4-bin (1)\apache-maven-3.8.4/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\bhush\Downloads\apache-maven-3.8.4-bin (1)\apache-maven-3.8.4 C:\Users\bhush\.jenkins\war\WEB-INF\lib\remoting-4.11.2.jar C:\Users\bhush\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\bhush\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 56928"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_301/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_301\bin\;C:\apache-maven-3.8.4bin\;C:\apache-maven-3.8.4\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\bhush\AppData\Local\Microsoft\WindowsApps"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="jansi.mode" value="strip"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_301/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="WT_SESSION" value="b4d43d18-1de5-46dc-ae0b-b040bc734fab"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Users\bhush\Downloads\apache-maven-3.8.4-bin (1)\apache-maven-3.8.4"/>
+    <property name="java.io.tmpdir" value="C:\Users\bhush\AppData\Local\Temp\"/>
+    <property name="CI" value="true"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\bhush\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\bhush\Downloads\apache-maven-3.8.4-bin (1)\apache-maven-3.8.4/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:7070/job/BookMyshow/12/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\bhush\eclipse-workspace\Hackathon"/>
+    <property name="JOB_URL" value="http://localhost:7070/job/BookMyshow/"/>
+    <property name="LOGONSERVER" value="\\BHUSHAN-BAGUL"/>
+    <property name="USERDOMAIN" value="BHUSHAN-BAGUL"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="C:\Users\bhush\Downloads\apache-maven-3.8.4-bin (1)\apache-maven-3.8.4"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="12"/>
+    <property name="JENKINS_URL" value="http://localhost:7070/"/>
+    <property name="PROCESSOR_REVISION" value="8e0c"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\bhush\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\bhush\.jenkins\workspace\BookMyshow@tmp"/>
+    <property name="WORKSPACE" value="C:\Users\bhush\.jenkins\workspace\BookMyshow"/>
+    <property name="maven3.interceptor.common" value="C:\Users\bhush\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Users\bhush\OneDrive\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+  </properties>
+  <testcase name="testCases" classname="com.Testing.TestScenario.Smoke" time="21.264">
+    <failure message="failing the TestCase :Browsing context has been discarded&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;BHUSHAN-BAGUL&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 25488, moz:profile: C:\Users\bhush\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 17b031a3-a9d7-4f37-b076-9d8bb0ad0fb7&#10;*** Element info: {Using=xpath, value=/html/body/div[2]/div/div/div/div[2]/ul/li[7]/div/div/img}" type="java.lang.AssertionError">java.lang.AssertionError: failing the TestCase :Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BHUSHAN-BAGUL', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 25488, moz:profile: C:\Users\bhush\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 17b031a3-a9d7-4f37-b076-9d8bb0ad0fb7
+*** Element info: {Using=xpath, value=/html/body/div[2]/div/div/div/div[2]/ul/li[7]/div/div/img}
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.Base.testSecnario.base.elementFind(base.java:103)
+	at com.Pages.TestScenarios.HomePage.homepage(HomePage.java:32)
+	at com.Testing.TestScenario.Smoke.testCases(Smoke.java:23)
+</failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+]]></system-out>
+    <system-err><![CDATA[1640778684622	geckodriver	INFO	Listening on 127.0.0.1:23646
+1640778685328	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bhush\\AppData\\Local\\Temp\\rust_mozprofileeklWyg"
+1640778686356	Marionette	INFO	Marionette enabled
+[GFX1-]: shader-cache: Failed to create file: Access is denied. (os error 5)
+[2021-12-29T11:51:27Z ERROR webrender_bindings::program_cache] shader-cache: Failed to create file: Access is denied. (os error 5)
+[20[GFX21-12-29T11:51:27Z ERROR webren1-]: shader-cache: Failed to cder_breate findings::program_cachile: Access is denied. (os error 5e] shader-cache: Failed to create file)
+: Access is denied. (os error 5)
+[2021-12-29T11:51:29Z ERROR webrender_bindings::pr[GFX1-]: shader-cache: Failed to create file: Accogram_caess is denied. (os error 5)che] shader-cache: Failed to
+[GFX1-]: shader-cache: Failed to creat ce file: Accessreate file: Access is denied. (o is denied. (os error 5)
+[GFX1-]: shader-cache: Failed to create file: Access is denied. (os error 5)
+[GFX1-]: shader-cache: Failed to create file: Access is denied. (os error 5)
+s error 5)
+[2021-12-29T11:51:29Z ERROR webrender_bindings::program_cache] shader-cache: Failed to create file: Access is denied. (os error 5)
+[2021-12-29T11:51:29Z ERROR webrender_bindings::program_cache] shader-cache: Failed to create fil[e: Access is denied. (os error 5)
+[2021-12-29T11:51:29Z ERROR webrender_bindings::program_cache] Gshader-cache: Failed tFX1-]: shader-cache: Failed to create file: Ao create file: Access is denied. (os error 5)
+[2021-12-29T11:51:29Z ERROR webrender_bindings::program_cache] shader-cache: Failed to create file: Access is denied. (os error 5)
+[2021-12-29T11:51:29Z ERROR webrender_bindings::program_cache] shader-cache: Failed to create file: Access is denied. (os error 5)
+[2021-12-29T11:51:29Z ERROR webrender_bindings::prograccess is denied. (os error 5)m_cache] shad
+er-cache: Failed to[GFX1-]: shader-cache: Failed to create file: Access is denied. (os error 5)
+[GFX1-]: shader-cache: Failed to create file: Access is denied. (os error 5)
+[GFX1-]: shader-cache: Failed to create file: Access is denied. (o create file: Access is denied. (os error 5)
+[2021-12-29T11:51:2s e9Z ERROR rror webrender_bindings::program_cache] shader-c5)
+[GFX1-]: shader-cachache: Failed to create file: Access is denied. (os error 5)
+[2021-e: Faile12-29T11:51:29Z ERROR webrender_bindings::program_cache] shader-cache: Failed to create file: Access is denied. (os error 5)
+[2021-12-29T11:51:29Z ERROR webrender_bindings::prod to create file: Access is denied. (os error 5)
+[GFX1-]: shader-cache: Failed to create file: Access is denied. (os error 5)
+gram_cache] shader-cache: Failed to create file: Access is denied. (os error 5)
+[2021-12-29T11:51:29Z ERROR [GFX1-]: shader-cache: Failed to create file: Access is denied. (os error 5)
+webrender_bindings::program_cache] shader-cache: Failed to create file: Access is denied. (os error 5)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\bhush\\AppData\\Local\\Temp\\rust_mozprofileeklWyg\\search.json.mozlz4", (void 0)))
+[GFX1-]: shader-cache: Failed t[2021-12o-29T11:51:29Z ERROR webrender_bindings::program_cache] shader-cache: Failed to write sta write startup whitelist: Access is denied. (os error 5)
+rtup whitelist: Access is denied. (os error 5)
+1640778690185	Marionette	INFO	Listening on port 56937
+[GFX1-]: shader-cache:[2021-12-29T11:51:30Z ERROR webrender_bindings::program_cache] shader-cache: Failed to create file: Access is denied. (os error 5)
+ Failed to create file: Access is denied. (os error 5)
+JavaScript error: , line 0: OperationError: Could not move temporary file(C:\Users\bhush\AppData\Local\Temp\rust_mozprofileeklWyg\activity-stream.discovery_stream.json.tmp) to destination(C:\Users\bhush\AppData\Local\Temp\rust_mozprofileeklWyg\activity-stream.discovery_stream.json)
+1640778690701	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Dec 29, 2021 5:21:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[GFX1-]: shader-cache: Failed to creat[2021-e file: Access is denied. (os error 5)
+12-29T11:51:31Z ERROR webrender_bindings::program_cache] shader-cache: Failed to create file: Access is denied. (os error 5)
+[GFX1-]: shader-cache: Failed to create file: Ac[cess is denied. (os error 5)
+2021-12-29T11:51:31Z ERROR webrender_bindings::program_cache] shader-cache: Failed to create file: Access is denied. (os error 5)
+[GFX1-]: shader-cache: Failed to create file: Access is denied. (os error[2021-12-29T11:51:32Z ERROR webrender_bin 5)
+dings::program_cache] shader-cache: Failed to create file: Access is denied. ([GFX1-]: shados errore r-cache: Failed to create5)
+ file: Access is denied. (os error 5)
+[2021-12-29T11:51:32Z ERROR webrender_bindings::program_cache] shader-cache: Failed to create file: Access is denied. (os e[GFX1-]: shader-cache: Failed trror 5)
+o create file: Access is denied. (os error 5)
+[2021-12-29T11:51:32Z ERROR webrender_bindings::program_cache] shader-cache: Failed to create file: Access is denied. (os error 5)
+1640778705340	Marionette	INFO	Stopped listening on port 56937
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BHUSHAN-BAGUL', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 25488, moz:profile: C:\Users\bhush\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 17b031a3-a9d7-4f37-b076-9d8bb0ad0fb7
+*** Element info: {Using=xpath, value=/html/body/div[2]/div/div/div/div[2]/ul/li[7]/div/div/img}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.Base.testSecnario.base.elementFind(base.java:85)
+	at com.Pages.TestScenarios.HomePage.homepage(HomePage.java:32)
+	at com.Testing.TestScenario.Smoke.testCases(Smoke.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></system-err>
+  </testcase>
+  <testcase name="signin" classname="com.Testing.TestScenario.Regression" time="0.905">
+    <failure message="Failed to decode response from marionette&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;BHUSHAN-BAGUL&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 25488, moz:profile: C:\Users\bhush\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 17b031a3-a9d7-4f37-b076-9d8bb0ad0fb7&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;super-container&quot;]/div[2]/header/div[1]/div/div/div/div[2]/div[2]/div[1]}" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BHUSHAN-BAGUL', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 25488, moz:profile: C:\Users\bhush\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 17b031a3-a9d7-4f37-b076-9d8bb0ad0fb7
+*** Element info: {Using=xpath, value=//*[@id="super-container"]/div[2]/header/div[1]/div/div/div/div[2]/div[2]/div[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.Pages.TestScenarios.SignIn.google(SignIn.java:33)
+	at com.Testing.TestScenario.Regression.signin(Regression.java:22)
+</failure>
+  </testcase>
+  <testcase name="movies" classname="com.Testing.TestScenario.Regression" time="20.022">
+    <failure message="failing the TestCase :Tried to run command without establishing a connection&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;BHUSHAN-BAGUL&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 25488, moz:profile: C:\Users\bhush\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 17b031a3-a9d7-4f37-b076-9d8bb0ad0fb7&#10;*** Element info: {Using=xpath, value=//a[normalize-space()=&apos;Movies&apos;]}" type="java.lang.AssertionError">java.lang.AssertionError: failing the TestCase :Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BHUSHAN-BAGUL', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 25488, moz:profile: C:\Users\bhush\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 17b031a3-a9d7-4f37-b076-9d8bb0ad0fb7
+*** Element info: {Using=xpath, value=//a[normalize-space()='Movies']}
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.Base.testSecnario.base.elementFind(base.java:103)
+	at com.Pages.TestScenarios.Movies.fuc1(Movies.java:23)
+	at com.Testing.TestScenario.Regression.movies(Regression.java:29)
+</failure>
+    <system-err><![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BHUSHAN-BAGUL', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 25488, moz:profile: C:\Users\bhush\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 17b031a3-a9d7-4f37-b076-9d8bb0ad0fb7
+*** Element info: {Using=xpath, value=//a[normalize-space()='Movies']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.Base.testSecnario.base.elementFind(base.java:85)
+	at com.Pages.TestScenarios.Movies.fuc1(Movies.java:23)
+	at com.Testing.TestScenario.Regression.movies(Regression.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></system-err>
+  </testcase>
+  <testcase name="Sports" classname="com.Testing.TestScenario.Regression" time="2.027">
+    <failure message="failing the TestCase :Tried to run command without establishing a connection&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;BHUSHAN-BAGUL&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 25488, moz:profile: C:\Users\bhush\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 17b031a3-a9d7-4f37-b076-9d8bb0ad0fb7&#10;*** Element info: {Using=xpath, value=//a[normalize-space()=&apos;Sports&apos;]}" type="java.lang.AssertionError">java.lang.AssertionError: failing the TestCase :Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BHUSHAN-BAGUL', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 25488, moz:profile: C:\Users\bhush\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 17b031a3-a9d7-4f37-b076-9d8bb0ad0fb7
+*** Element info: {Using=xpath, value=//a[normalize-space()='Sports']}
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.Base.testSecnario.base.elementFind(base.java:103)
+	at com.Pages.TestScenarios.Sports.func2(Sports.java:30)
+	at com.Testing.TestScenario.Regression.Sports(Regression.java:34)
+</failure>
+    <system-err><![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BHUSHAN-BAGUL', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 25488, moz:profile: C:\Users\bhush\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 17b031a3-a9d7-4f37-b076-9d8bb0ad0fb7
+*** Element info: {Using=xpath, value=//a[normalize-space()='Sports']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.Base.testSecnario.base.elementFind(base.java:85)
+	at com.Pages.TestScenarios.Sports.func2(Sports.java:30)
+	at com.Testing.TestScenario.Regression.Sports(Regression.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></system-err>
+  </testcase>
+</testsuite>

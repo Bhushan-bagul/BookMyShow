@@ -1,0 +1,68 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 46.192 sec <<< FAILURE! - in TestSuite
+testCases(com.Testing.TestScenario.Smoke)  Time elapsed: 21.264 sec  <<< FAILURE!
+java.lang.AssertionError: failing the TestCase :Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BHUSHAN-BAGUL', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 25488, moz:profile: C:\Users\bhush\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 17b031a3-a9d7-4f37-b076-9d8bb0ad0fb7
+*** Element info: {Using=xpath, value=/html/body/div[2]/div/div/div/div[2]/ul/li[7]/div/div/img}
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.Base.testSecnario.base.elementFind(base.java:103)
+	at com.Pages.TestScenarios.HomePage.homepage(HomePage.java:32)
+	at com.Testing.TestScenario.Smoke.testCases(Smoke.java:23)
+
+signin(com.Testing.TestScenario.Regression)  Time elapsed: 0.905 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BHUSHAN-BAGUL', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 25488, moz:profile: C:\Users\bhush\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 17b031a3-a9d7-4f37-b076-9d8bb0ad0fb7
+*** Element info: {Using=xpath, value=//*[@id="super-container"]/div[2]/header/div[1]/div/div/div/div[2]/div[2]/div[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.Pages.TestScenarios.SignIn.google(SignIn.java:33)
+	at com.Testing.TestScenario.Regression.signin(Regression.java:22)
+
+movies(com.Testing.TestScenario.Regression)  Time elapsed: 20.022 sec  <<< FAILURE!
+java.lang.AssertionError: failing the TestCase :Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BHUSHAN-BAGUL', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 25488, moz:profile: C:\Users\bhush\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 17b031a3-a9d7-4f37-b076-9d8bb0ad0fb7
+*** Element info: {Using=xpath, value=//a[normalize-space()='Movies']}
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.Base.testSecnario.base.elementFind(base.java:103)
+	at com.Pages.TestScenarios.Movies.fuc1(Movies.java:23)
+	at com.Testing.TestScenario.Regression.movies(Regression.java:29)
+
+Sports(com.Testing.TestScenario.Regression)  Time elapsed: 2.027 sec  <<< FAILURE!
+java.lang.AssertionError: failing the TestCase :Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BHUSHAN-BAGUL', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211218203254, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 25488, moz:profile: C:\Users\bhush\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 17b031a3-a9d7-4f37-b076-9d8bb0ad0fb7
+*** Element info: {Using=xpath, value=//a[normalize-space()='Sports']}
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.Base.testSecnario.base.elementFind(base.java:103)
+	at com.Pages.TestScenarios.Sports.func2(Sports.java:30)
+	at com.Testing.TestScenario.Regression.Sports(Regression.java:34)
+

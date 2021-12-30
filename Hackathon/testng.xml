@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+    <suite name="TestNG Dadadriver suite"  > 
+    <!-- suite name="Suite Name" --> 
+            <suite-files>
+                   <suite-file path="./Smoke.xml" />
+                   <suite-file path="./Regression.xml" />
+                   
+            </suite-files>
+            
+            
+            
+            
+    </suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <suite name="Suite">
+  <test thread-count="5" name="Test">
+  <classes>
+  	<class name="com.Testing.TestScenario.Smoke"/>
+  </classes>
+  </test> Test
+</suite>  -->
+
+
+<!-- <suite name="Suite2">
+  <test thread-count="5" name="Test2">
+  <classes>
+  	<class name="com.Testing.TestScenario.Regression"/>
+  </classes>
+  </test> Test
+</suite> -->

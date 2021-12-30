@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite2]">
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="com.Testing.TestScenario.Regression">
+        <methods>
+          <include name="Sports"/>
+          <include name="signin"/>
+          <include name="movies"/>
+        </methods>
+      </class> <!-- com.Testing.TestScenario.Regression -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite2] -->
